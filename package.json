@@ -1,0 +1,27 @@
+{
+  "name": "word-counter",
+  "version": "1.0.0",
+  "description": "Write a function called words that takes in a string argument and counts the occurrences of each word in the string.  The function should return a JSON object showing the words identified, and their occurrences. For example for the input `olly olly in come free`, the output should be **{olly: 2, in: 1, come: 1, free: 1}",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha test/test.js"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leksyib/word-counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leksyib/word-counter/issues"
+  },
+  "homepage": "https://github.com/leksyib/word-counter#readme",
+  "dependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
